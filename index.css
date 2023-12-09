@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  form, #posts {
+    display: inline-block;
+    margin: 20px;
+  }
+  #posts {
+    text-align: left;
+  }
+  .post-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  form, #posts {
+    display: inline-block;
+    margin: 20px;
+  }
+  #posts {
+    text-align: left;
+  }
+  .post-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  .post-card h2 {
+    color: #333;
+    font-size: 20px;
+  }
+  .post-card p {
+    color: #666;
+  }
+  .post-card.likes {
+    color: #ff5733; /* Different color for likes */
+  }
+  .post-card.category {
+    color: #3498db; /* Different color for category */
+  }

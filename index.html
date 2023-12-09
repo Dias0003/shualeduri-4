@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shualeduri44</title>
+</head>
+<body>
+
+<div id="registration">
+  <form id="registrationForm">
+    <input type="text" id="email" placeholder="Email">
+    <div id="emailError" style="color: red;"></div>
+    
+    <input type="password" id="password" placeholder="Password">
+    <div id="passwordError" style="color: red;"></div>
+    
+    <input type="text" id="phone" placeholder="Phone">
+    <div id="phoneError" style="color: red;"></div>
+
+    <button onclick="validateRegistration()">Register</button>
+  </form>
+  <div id="registrationSuccess" style="display: none;">
+    <p>Registration Successful!</p>
+    <button onclick="showLogin()">Login</button>
+  </div>
+</div>
+
+<div id="posts" style="display: none;">
+  <input type="text" id="searchInput" placeholder="Search">
+  <button onclick="searchPosts()">Search</button>
+
+  <div id="postList"></div>
+</div>
+
+    
+</head>
+<body>
+
+<div id="registration">
+ 
+</div>
+
+<div id="posts">
+  <input type="text" id="searchInput" placeholder="Search">
+  <button onclick="searchPosts()">Search</button>
+
+  <div id="postList"></div>
+</div>
+
+
+</body>
+</html>
+
+
